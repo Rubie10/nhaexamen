@@ -1,0 +1,103 @@
+.kop {
+    margin: 35px 20px 20px 20px;
+}
+
+.kop-tekst {
+    margin: 20px 20px 20px 20px;
+}
+
+#foto-saxofoon {
+    height: 300px;
+    width: auto;
+    margin: 25px 0px 20px 55px;
+}
+
+.zijkant-kop {
+    color: rgb(177, 67, 16);
+}
+
+#foto-trompet {
+    margin: 25px 55px;
+    max-height: 300px;
+    width: auto;
+}
+
+#foto-saxofoon2 {
+    margin: 25px 55px;
+    max-height: 300px;
+    width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #foto-saxofoon {
+        height: 440px;
+        width: auto;
+    }
+
+    #foto-trompet {
+        height: 150px;
+        width: auto;
+    }
+
+    #foto-saxofoon2 {
+        height: 150px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #foto-saxofoon {
+        height: auto;
+        width: 315px;
+    }
+
+    #foto-trompet {
+        height: 100px;
+        width: auto;
+        margin: 0px 35px;
+    }
+
+    #foto-saxofoon2 {
+        height: 100px;
+        width: auto;
+        margin: 0px 35px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #foto-saxofoon {
+        height: auto;
+        width: 325px;
+        margin: 0px 25px;
+    }
+    #foto-trompet {
+        height: 90px;
+        width: auto;
+        margin: 0px 35px;
+    }
+
+    #foto-saxofoon2 {
+        height: 90px;
+        width: auto;
+        margin: 0px 35px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #foto-saxofoon {
+        height: auto;
+        width: 270px;
+        margin: 0px 25px;
+    }
+    #foto-trompet {
+        height: 85px;
+        width: auto;
+        margin: 0px 35px;
+    }
+
+    #foto-saxofoon2 {
+        height: 85px;
+        width: auto;
+        margin: 0px 35px;
+    }
+}

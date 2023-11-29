@@ -1,0 +1,49 @@
+.kop {
+    margin: 35px 20px 20px 20px;
+}
+
+.kop-tekst {
+    margin: 20px 20px 20px 20px;
+}
+
+.zijkant-kop {
+    color: rgb(177, 67, 16);
+}
+
+aside hr {
+    width: 93%;
+    margin: auto;
+}
+
+article hr {
+    width: 97%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    aside hr, article hr {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    aside hr, article hr {
+        width: 91%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    aside hr, article hr {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    aside hr, article hr {
+        width: 88%;
+        margin: auto;
+    }
+}

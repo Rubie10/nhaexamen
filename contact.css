@@ -1,0 +1,85 @@
+.kop {
+    margin: 35px 20px 20px 20px;
+}
+
+.kop-tekst {
+    margin: 20px 20px 20px 20px;
+}
+
+.zijkant-kop {
+    color: rgb(177, 67, 16);
+}
+
+#adres {
+    margin: 0px 20px 10px 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 700px;
+    margin: 0px 30px 30px 30px;
+}
+
+form {
+    margin: 0px 20px;
+}
+
+input, textarea, select, button{
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+}
+
+#knop {
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#knop:hover {
+    background-color: rgb(168, 62, 23);
+}
+
+#knop:active {
+    background-color: rgb(168, 62, 23);
+}
+
+input, select, textarea {
+    padding: 12px;
+}
+
+textarea {
+    height: 400px;
+    resize: none;
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        width: 708px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    iframe {
+        width: 365px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    iframe {
+        width: 325px;
+        margin: 0px 25px 25px 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    iframe {
+        width: 280px;
+        margin: 0px 20px 20px 20px;
+    }
+}

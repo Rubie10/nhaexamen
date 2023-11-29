@@ -1,0 +1,101 @@
+.kop {
+    margin: 35px 20px 20px 20px;
+}
+
+.kop-tekst {
+    margin: 20px 20px 20px 20px;
+}
+
+.zijkant-kop {
+    color: rgb(177, 67, 16);
+}
+
+#foto-kind {
+    height: auto;
+    width: 460px;
+    margin: 25px 0px 20px 55px;
+}
+
+#hannah {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+#jesse {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #foto-kind {
+        height: auto;
+        width: 658px;
+    }
+
+    #hannah {
+        width: 250px;
+        height: auto;
+    }
+
+    #jesse {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #foto-kind {
+        height: auto;
+        width: 375px;
+        margin: 0px 25px;
+    }
+
+    #hannah {
+        width: 150px;
+        height: auto;
+    }
+
+    #jesse {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #foto-kind {
+        height: auto;
+        width: 325px;
+        margin: 0px 25px;
+    }
+
+    #hannah {
+        width: 130px;
+        height: auto;
+    }
+
+    #jesse {
+        width: 130px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #foto-kind {
+        height: auto;
+        width: 270px;
+    }
+
+    #hannah {
+        width: 120px;
+        height: auto;
+    }
+
+    #jesse {
+        width: 120px;
+        height: auto;
+    }
+}
